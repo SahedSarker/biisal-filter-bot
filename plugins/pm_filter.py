@@ -773,15 +773,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='earn'),
-            InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
+            InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='premium')
         ],
         [
             InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ', callback_data=f'free_premium#{query.from_user.id}'),
-	    InlineKeyboardButton('ʏᴏᴜʀ ᴘᴏɪɴᴛs', callback_data=f'point#{message.from_user.id}'),
+	    InlineKeyboardButton('ʏᴏᴜʀ ᴘᴏɪɴᴛs', callback_data=f'point#{message.from_user.id}')
         ],
         [
             InlineKeyboardButton('ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
