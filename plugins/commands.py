@@ -304,7 +304,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("⭕𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⭕", url="https://t.me/movie344/4"),
+                InlineKeyboardButton("⭕𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⭕", url="https://t.me/movie344/4")
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -344,7 +344,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("⭕𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⭕", url="https://t.me/movie344/4"),
+        InlineKeyboardButton("⭕𝗝𝗢𝗜𝗡 𝗨𝗣𝗗𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟⭕", url="https://t.me/movie344/4")
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
