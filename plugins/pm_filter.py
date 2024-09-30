@@ -1321,7 +1321,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}"),
 	        InlineKeyboardButton("ʏᴇᴀʀ", callback_data=f"years#{key}#{offset}#{req}"),
                 ])
-    btn.insert(1, [
+            btn.insert(1,[
                 InlineKeyboardButton("ǫᴜᴀʟɪᴛʏ", callback_data=f"qualities#{key}#{offset}#{req}"),
                 InlineKeyboardButton("season", callback_data=f"seasons#{key}#{offset}#{req}")
                 ])
