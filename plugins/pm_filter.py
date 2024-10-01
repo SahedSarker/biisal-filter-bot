@@ -774,12 +774,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='earn'),
             InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
-        ],
-        [
+        ],[
             InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ', callback_data=f'free_premium#{query.from_user.id}'),
 	    InlineKeyboardButton('ʏᴏᴜʀ ᴘᴏɪɴᴛs', callback_data=f'point#{message.from_user.id}')
-        ],
-        [
+        ],[
             InlineKeyboardButton('ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
 	    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data=f'about')
 	]]    
