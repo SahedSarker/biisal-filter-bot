@@ -31,7 +31,7 @@ async def pm_search(client, message):
         await auto_filter(client, message , pm_mode=True)
     else:
         await message.reply_text(
-        text=f"<b>Hello {message.from_user.mention} How Are You ? 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nɪ ᴡᴏʀᴋ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs</b>",
+        text=f"<b>Hello {message.from_user.mention} How Are You ? 😍 ,\n\nɪ ᴄᴀɴᴛ ɢɪᴠᴇ ᴍᴏᴠɪᴇ ʜᴇʀᴇ\nɪ ᴡᴏʀᴋ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘs\n\nআপাতত ইনবক্স সার্ভিস অফ আছে।\nআমাদের গ্রুপ থেকে আপনার কাঙ্খিত মুভিটি ডাউনলোড করুন</b>",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
