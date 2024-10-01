@@ -1,7 +1,9 @@
 class script(object):
     START_TXT = """<b> Hᴇʟʟᴏ {} {},
     
-<blockquote>ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs sᴇʀɪᴇs & ᴋ-ᴅʀᴀᴍᴀs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ ᴀɴᴅ sᴇɴᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴛʜᴀᴛs ɪᴛ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ✨</blockquote>
+<blockquote>ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs sᴇʀɪᴇs & ᴋ-ᴅʀᴀᴍᴀs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ ᴀɴᴅ sᴇɴᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴛʜᴀᴛs ɪᴛ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ✨</blockquote>
+
+
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/sahedsarker'>𝗦𝗮𝗵𝗲𝗱 🜲</a>
 </b>"""
     
@@ -39,7 +41,7 @@ class script(object):
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
-😚 ᴍʏ Update Channel: <a href="https://t.me/movie344/4">Join</a>
+😚 ᴍʏ Update Channel: <a href="https://t.me/movie344/4">Join</a>
 🤡 ᴍʏ Developer : <a href="https://telegram.me/sahedsarker">𝗦𝗮𝗵𝗲𝗱 🜲</a>
 🍿 Movies Channel : <a href="https://t.me/sahedmovieshub">ʟɪɴᴋ</a>
 </b>"""
