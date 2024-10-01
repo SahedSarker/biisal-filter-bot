@@ -776,15 +776,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
         ],
         [
-            InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ', callback_data=f'free_premium#{query.from_user.id}')
+            InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ', callback_data=f'free_premium#{query.from_user.id}'),
+	    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='earn')
         ],
         [
             InlineKeyboardButton('ʏᴏᴜʀ ᴘᴏɪɴᴛs', callback_data=f'point#{query.from_user.id}'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data=f'about')
-        ],
-        [
-            InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='earn')
-        ]]
+	]]
+	    
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
