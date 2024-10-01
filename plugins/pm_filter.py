@@ -36,12 +36,12 @@ async def pm_search(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗛𝗲𝗿𝗲 🍿", url=link
+                        "sᴜᴘᴘᴏʀᴛ 😊", url=link
                     )
                 ]
             ]
         ),
-        )
+	)
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def group_search(client, message):
